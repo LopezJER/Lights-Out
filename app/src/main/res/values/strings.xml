@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="congrats">Ang galing naman...</string>
+    <string name="nickname_hint">Enter nickname:</string>
+    <string name="start_button">START</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="let_s_do_this_again">Let\'s do this again?</string>
+    <string name="you_lit_up_my_life">You lit up my life</string>
+    <string name="xxx">XXX</string>
+    <string name="times">times.</string>
+    <string name="again">again</string>
+    <string name="x">X</string>
+    <string name="restart">Restart</string>
+    <string name="lights_out">Lights Out!</string>
+    <string name="new_look_same_great_taste">new look, same great taste</string>
+    <string name="on">ON</string>
+    <string name="what_is_your_name">what is your name?</string>
+</resources>

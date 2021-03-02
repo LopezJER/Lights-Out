@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <TextView
+            android:id="@+id/tile_10"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/tile_15"
+            app:layout_constraintStart_toEndOf="@+id/tile_9" />
+
+        <TextView
+            android:id="@+id/tile_5"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/tile_10"
+            app:layout_constraintStart_toEndOf="@+id/tile_4" />
+
+        <TextView
+            android:id="@+id/tile_20"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintStart_toEndOf="@+id/tile_19"
+            app:layout_constraintTop_toBottomOf="@+id/tile_15" />
+
+        <TextView
+            android:id="@+id/tile_25"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintStart_toEndOf="@+id/tile_24"
+            app:layout_constraintTop_toBottomOf="@+id/tile_20" />
+
+        <TextView
+            android:id="@+id/tile_15"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tile_14"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tile_1"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/tile_6"
+            app:layout_constraintEnd_toStartOf="@+id/tile_2" />
+
+        <TextView
+            android:id="@+id/tile_11"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tile_12"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tile_16"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/tile_17"
+            app:layout_constraintTop_toBottomOf="@+id/tile_11" />
+
+        <TextView
+            android:id="@+id/tile_21"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/tile_22"
+            app:layout_constraintTop_toBottomOf="@+id/tile_16" />
+
+        <TextView
+            android:id="@+id/tile_6"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/tile_11"
+            app:layout_constraintEnd_toStartOf="@+id/tile_7" />
+
+        <TextView
+            android:id="@+id/tile_2"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/tile_7"
+            app:layout_constraintEnd_toStartOf="@+id/tile_3" />
+
+        <TextView
+            android:id="@+id/tile_12"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tile_13"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tile_17"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/tile_18"
+            app:layout_constraintTop_toBottomOf="@+id/tile_12" />
+
+        <TextView
+            android:id="@+id/tile_22"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/tile_23"
+            app:layout_constraintTop_toBottomOf="@+id/tile_17" />
+
+        <TextView
+            android:id="@+id/tile_7"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/tile_12"
+            app:layout_constraintEnd_toStartOf="@+id/tile_8" />
+
+        <TextView
+            android:id="@+id/tile_4"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/tile_9"
+            app:layout_constraintStart_toEndOf="@+id/tile_3" />
+
+        <TextView
+            android:id="@+id/tile_9"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/tile_14"
+            app:layout_constraintStart_toEndOf="@+id/tile_8" />
+
+        <TextView
+            android:id="@+id/tile_19"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintStart_toEndOf="@+id/tile_18"
+            app:layout_constraintTop_toBottomOf="@+id/tile_14" />
+
+        <TextView
+            android:id="@+id/tile_24"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintStart_toEndOf="@+id/tile_23"
+            app:layout_constraintTop_toBottomOf="@+id/tile_19" />
+
+        <TextView
+            android:id="@+id/tile_14"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tile_13"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tile_18"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tile_13" />
+
+        <TextView
+            android:id="@+id/tile_3"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/tile_8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tile_8"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/tile_13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tile_13"
+            style="@style/whiteBox"
+            android:layout_width="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tile_23"
+            style="@style/whiteBox"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/back"
+            android:text="@string/x"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tile_18" />
+
+        <Button
+            android:id="@+id/restartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/back"
+            android:text="@string/restart"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tile_23" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
