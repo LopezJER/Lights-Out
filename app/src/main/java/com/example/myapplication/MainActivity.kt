@@ -4,9 +4,10 @@
  * on their input. The number of moves in the congratsFragment is updated from the gameFragment via an interface implemented in
  * the main activity.
  *
+ *Initial Test successful: buttons and score working and updating as expected 
+ *
  * @author Jose Enrique R. Lopez
  * @version 1.0
- * @since 2020-03-17 05:18
 */
 
 
